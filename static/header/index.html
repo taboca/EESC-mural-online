@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link media="screen, projection" type="text/css" href="base.css" rel="stylesheet">
+    <link media="screen, projection" type="text/css" href="../lib/hdgrid.css" rel="stylesheet">
+    <link media="screen, projection" type="text/css" href="../lib/tagvisor.css" rel="stylesheet">
+<script src="../vendor/jquery-min.js"></script>
+<script src="../lib/choreographer.js"></script>
+<script src="map.js"></script>
+<script src="../lib/tagvisor.js"></script>
+<script>
+
+function animate() { 
+  tv.setup();
+  tv.add($('#animation li'));
+  tv.play();
+} 
+
+
+</script>
+  </head>
+<body onload='animate()' id='main'> 
+
+<table border='0' width='1080' cellpadding='0' >
+<tr>
+<td valign='top' width='500'>
+<div style='font-size:56px;font-weight:bold;opacity:.1;margin-top:-30px;margin-left:-8px'>programe-se</div>
+</td>
+<td valign='top' width='200'>
+<div id='esquerdo'></div>
+</td>
+<td valign='top' width='400'>
+<div id='direito' ></div>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

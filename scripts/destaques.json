@@ -1,0 +1,20 @@
+{
+"rules": [
+
+{
+ "about":"start",
+ "function":"saveRSS",
+ "expiretimer":10000, 
+ "data":{"value":"http://www.eesc.usp.br/portaleesc/index.php?option=com_content&view=category&id=121&format=feed&type=rss","about":"destaques"}, "to":"next"
+}, 
+{
+ "about":"next",
+ "function":"timer",
+ "data":{"value":900000},
+ "to":"start"
+}
+
+]
+
+}
+
