@@ -30,16 +30,16 @@ h1 {
 .bottom h2 { margin:1em } 
 
 #viewport.main { 
-  background: -moz-radial-gradient( 50% 50%, circle closest-corner, #fff, #fff, #9c9);
+  background: -moz-radial-gradient( 30% 60%, circle closest-corner, #fff, #fff, #9c9);
   background-size: 1080px 1920px;
 } 
 
 
 .datetime  { 
   font-size:160%;
-  color:black;
+  color:white;
   font-weight:bold;
-  text-align:right;
+  text-align:center;
 } 
 
 
