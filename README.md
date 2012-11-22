@@ -1,27 +1,8 @@
-Vertical Dashboard Template 
-This is part of TelaSocial 
-
-TelaSocial is an experimentation project that aims to create Web-based experiences to display systems in public and semi-public environments. TelaSocial can be seen a feed agregator and visualization system. It uses various technologies in order to create this experience: 
-
-* TagVisor Library, for Animation and Events model 
-* jquery 
-* Components written in JS and loaded into Iframes 
-
-## Current State
-
-This project is *highly* experimental, rapidly changing, and grows due to a number
-of contributor projects that are using it. 
-
-## Current Design 
-
-TelaSocial has a web-based component and a client side component. The client side 
-is a very simple XULRunner-based app which loads the remote web-based parts. 
-
 ## Trademarks 
 
 TelaSocial and Taboca are trademarks of Taboca Labs / Marcio S Galli Informatica; 
-IFSC is trademark of USP University of Sao Paulo in Brazil, INPE, Yahoo!,
-ClimaTempo and others are trademark of the respective owners.
+EESC is trademark of USP University of Sao Paulo in Brazil, INPE, Yahoo!,
+ and others are trademark of the respective owners.
 
 ## USAGE 
 
