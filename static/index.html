@@ -1,16 +1,74 @@
 <html>
 <head>
-<style>
-html, body { margin:0; padding:0; background-color:white } 
-div { 
-   -moz-transform:scale(.333); -moz-transform-origin:0 0;
-   -webkit-transform:scale(.34); -webkit-transform-origin:0 0;
-} 
-</style>
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link media="screen, projection" type="text/css" href="lib/hdgrid.css" rel="stylesheet">
+    <link media="screen, projection" type="text/css" href="lib/base.css" rel="stylesheet">
+    <link media="screen, projection" type="text/css" href="lib/tagvisor.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="base.css">
+
+<script src="vendor/jquery-min.js"></script>
+<script src="const.js"></script>
+<script src="index.js"></script>
+<script src="lib/tagvisor.js"></script>
+<script src="lib/choreographer.js"></script>
 </head>
-<body>
-<div >
-<iframe src='index-app.html?mode=tv' style='border:0;width:1580px;height:1920px'></iframe>
+
+<body id="main">
+
+<div id="debug" >
 </div>
+
+<ul id='animation'>
+ <li data-scope='meio' data-target='panel_noticias' data-time="2s" data-effect="move" data-duration="4s" />
+<!--
+ <li data-scope='meio' data-target='panel_banner' data-time="40s" data-effect="move" data-duration="4s" />
+ <li data-scope='meio' data-target='panel_noticias' data-time="60s" data-effect="move" data-duration="4s" />
+-->
+</ul>
+
+<div id='viewport' class='viewport main' >
+<div id='pagetranslate' >
+<div id='pagescale' style=''>
+
+<div class='grid gh1080' style=''>
+
+<div class='gv10' id='topo'>
+</div>
+
+<div class='gv15' style='border:0px solid green'>
+
+<div class='gh gh720' >
+  <div id="middle" style='border:px solid red'>
+  </div>
+</div>
+
+<div class='gh gh360' style='border:px solid red' >
+  <div id='lado' class='gv15' style='overflow:hidden'>
+  </div>
+</div>
+
+</div>
+
+<div id="top" class='gv6' style='position:relative'>
+
+	<div class='gv6' style='background: rgb(90,110,90);box-shadow:0 -5px 10px rgba(0,0,0,.4)'>
+		<div class='gv1' id='fundo_cabecalho' style='width:100%;' >
+		</div>
+		<div class='gv5' id='fundo' style='width:100%;' >
+		</div>
+	</div>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+</div>
+</div>
+
 </body>
 </html>
