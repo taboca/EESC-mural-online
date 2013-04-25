@@ -1,4 +1,4 @@
-## 
+#!/bin/sh 
 # Ref article http://labs.telasocial.com/nodejs-forever-daemon/
 
 ### BEGIN INIT INFO
