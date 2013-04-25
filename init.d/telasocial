@@ -10,7 +10,6 @@
 # Short-Description:    TelaSocial Node App
 ### END INIT INFO
 
-export NODE_PATH=/home/tela/TelaSocial-Mediator
 export PATH=$PATH:/usr/local/bin
 export NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 
