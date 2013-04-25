@@ -1,0 +1,20 @@
+{
+"rules": [
+
+{
+ "about":"start",
+ "function":"saveRSS",
+ "expiretimer":10000, 
+ "data":{"value":"http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&task=modlatest.rss&format=feed&type=rss&modid=184","about":"eventos"}, "to":"next"
+}, 
+{
+ "about":"next",
+ "function":"timer",
+ "data":{"value":900000},
+ "to":"start"
+}
+
+]
+
+}
+
