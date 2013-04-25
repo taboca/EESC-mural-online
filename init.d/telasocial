@@ -20,6 +20,7 @@ case "$1" in
   start)
     /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/httpserver.json
     /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/screenshots.json
+    /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/eventos.json
     ;;
   stop)
     exec /usr/local/bin/forever stopall
