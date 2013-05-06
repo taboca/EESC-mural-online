@@ -40,7 +40,7 @@ var app =  {
 	feed    : null, 
 	start : function() {
 
-                this.elementStore = document.createElement('div');
+        this.elementStore = document.createElement('div');
 		this.elementStore.setAttribute("id","container");
 		document.body.appendChild(this.elementStore);
 		this.element = document.createElement('div');
@@ -64,7 +64,7 @@ var app =  {
 		this.feed.setNumEntries(10);
 	} ,
 
-        total:0,
+    total:0,
 
 	render : function() {
 		var counter = 0;
@@ -110,13 +110,7 @@ var app =  {
 		var self  = this; 
 		var cc=0;
      		$(result.xmlDocument).find('item').each(function(){
-                 var title   = $(this).find('title').text();
-			/*
-                        var local   = $(this).find('local').text();
-                        var data    = $(this).find('data').text();
-                        var hora    = $(this).find('hora').text();
-			*/
-
+                var title   = $(this).find('title').text();
     			var link = $(this).find('description').text();
                 var src = 'http://farm1.staticflickr.com/74/156708728_dd56ff367e_b.jpg';
                 try { 
