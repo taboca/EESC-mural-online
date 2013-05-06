@@ -7,76 +7,41 @@ h3 {
 } 
 
 .evento{
-	color:black;
-        padding:.5em;
-	display:flex;
-	flex-direction:row;
+    padding:.5em;
 	overflow:hidden;
-} 
-
-.evento_titulo { 
-	display:block;
-	flex:1 1 auto;
-        font-size:17px;
-	font-weight:bold;
-	color:rgb(40,40,40);
-} 
-
-.evento_local { 
-	font-size:14px;
-	border-left:1px solid rgba(0,0,0,.3);
-	margin-left:.5em;
-	padding-left:.5em;
-	color:#555;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	flex:auto 1 auto;
-	overflow: hidden;
+    color:white;
 } 
 
 .evento_datahora { 
-	flex:auto 1 auto;
 	white-space: nowrap;
-} 
-
-.evento_orientador { 
-	font-size:14px;
-	color:#555;
-	text-overflow: ellipsis;
-	padding:3px;
-	flex:1 1 auto;
-	overflow: hidden;
+	color:black;
+    background-color:#ddd;
+    border-radius:6px;
+    padding:5px;
+    display:inline-block;
 } 
 
 .evento_descricao { 
-	border-left:1px solid rgba(0,0,0,.3);
-	margin-left:.5em;
-	height:1.2em;
+    display:inline-block;
+    vertical-align:middle;
 	padding-left:.5em;
 	white-space:nowrap;
-	flex:1 1 100%;
 	overflow: hidden;
+    font-size:20px;
 	text-overflow: ellipsis;
 } 
 
-    body { 
-	padding:10px;
+body { 
+	padding:5px;
 	padding-top:0;
-    } 
+} 
 
-    div.item { 
-        font-size:14px;
-	color:#444;
-	margin:.6em;
-	margin-left:.2em;
-    } 
-
-    div.itemshadow { 
+div.itemshadow { 
 	background:url(../vendor/shadow.png) 50% 0 no-repeat; 
-	background-size: 330px 60px; 
-	opacity:1;
+	background-size: 730px 60px; 
+	opacity:.5;
 	margin-top:.5em;
 	border-top:1px solid rgba(0,0,0,.3);
 	height:2px; 
-    } 
+} 
 

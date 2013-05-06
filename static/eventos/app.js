@@ -82,7 +82,7 @@ var app =  {
 			this.element.appendChild(kk);
 			k.className="item";
 			this.total++;
-			if(this.total>9) { 
+			if(this.total>5) { 
 				$($("div.item")[0]).animate({height:'hide'}, 1000, function() {  $($("div.item")[0]).remove() } );
 				$($("div.itemshadow")[0]).animate({height:'hide'}, 1000, function() {  $($("div.itemshadow")[0]).remove() } );
 
@@ -99,18 +99,43 @@ var app =  {
 
 	__feedUpdated : function(result) {
 
-                this.tweetRepeated = {};
+        this.tweetRepeated = {};
 		var self  = this; 
 		var cc=0;
 
         $(result.xmlDocument).find('item').each(function(){
               var title   = $(this).find('title').text();
-              var desc    = $(this).find('description').text();
-              var local   = $(this).find('departamento').text();
-              var data    = $(this).find('data').text();
-              var hora    = $(this).find('hora').text();
+              //var desc    = $(this).find('description').text();
+              var local   = ''; 
+              //var local   = $(this).find('departamento').text();
+              //var data    = '';
+              var data    = $(this).find('pubDate').text();
+              var s0 = data.split(' ');
+              var sDate = s0[1];
+              var sMon = s0[2];
+              var sMonList = new Array();
+
+              sMonList['Jan']='Jan';
+              sMonList['Feb']='Fev';
+              sMonList['Mar']='Mar';
+              sMonList['Apr']='Abr';
+              sMonList['May']='Mai';
+              sMonList['Jun']='Jun';
+              sMonList['Jul']='Jul';
+              sMonList['Aug']='Ago';
+              sMonList['Set']='Set';
+              sMonList['Oct']='Oct';
+              sMonList['Nov']='Nov';
+              sMonList['Dec']='Dez';
+              
+              var sYear = s0[3];
+              data = sDate + ' ' + sMonList[sMon] + ' ' + sYear;
+              //data =  tempo.get(data);
+              //var hora    = $(this).find('hora').text();
+              var hora    = '';
+              var desc    = '';
               if(cc>=0) {
-                 self.tweetQueue.push( '<div class="evento"><div class="evento_datahora">'+data+' | ' + hora + ' </div> <div class="evento_local">'+local+'</div><div class="evento_descricao">'+desc+'</div></div>');
+                 self.tweetQueue.push( '<div class="evento"><div class="evento_datahora">'+data+ ' </div> <div class="evento_descricao">'+title+'</div></div>');
 //                                self.tweetQueue.push( '<div class="evento"><div class="evento_titulo">'+title+'</div><div class="evento_descricao">'+desc+'</div><div class="evento_datahora">'+data+' | ' + hora + ' </div> <div class="evento_local">'+local+'</div></div>');
                   cc++;
               }
