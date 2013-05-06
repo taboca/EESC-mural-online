@@ -105,25 +105,30 @@ var app =  {
 
 	__feedUpdated : function(result) {
 
-                this.tweetRepeated = {};
+        this.tweetRepeated = {};
 		var self  = this; 
 		var cc=0;
      		$(result.xmlDocument).find('item').each(function(){
-                        var title   = $(this).find('title').text();
+                 var title   = $(this).find('title').text();
 			/*
                         var local   = $(this).find('local').text();
                         var data    = $(this).find('data').text();
                         var hora    = $(this).find('hora').text();
 			*/
 
-			var link = $(this).find('description').text();
-			var src = "http"+link.split('http')[1].split('jpg')[0]+"jpg";
-			$('#temp').html(link);
-			var desc = $('#temp').text();	
+    			var link = $(this).find('description').text();
+                var src = 'http://farm1.staticflickr.com/74/156708728_dd56ff367e_b.jpg';
+                try { 
+                  if (link.indexOf('http')>-1) { 
+    			     src = "http"+link.split('http')[1].split('jpg')[0]+"jpg";
+                  } 
+                } catch(i) { }  
+    			$('#temp').html(link);
+    			var desc = $('#temp').text();	
 	
-                        self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="desc">'+desc+'</div><img src="'+src+'" style="display:none"/></div>' );
-                        cc++;
-                });
+                self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="desc">'+desc+'</div><img src="'+src+'" style="display:none"/></div>' );
+                cc++;
+            });
 
 		var self = this;
 		self.render();
