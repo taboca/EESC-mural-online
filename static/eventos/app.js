@@ -40,7 +40,7 @@ var app =  {
 	feed    : null, 
 	start : function() {
 
-                this.elementStore = document.createElement('div');
+        this.elementStore = document.createElement('div');
 		this.elementStore.setAttribute("id","container");
 		document.body.appendChild(this.elementStore);
 		this.element = document.createElement('div');
@@ -64,7 +64,7 @@ var app =  {
 		this.feed.setNumEntries(10);
 	} ,
 
-        total:0,
+    total:0,
 
 	render : function() {
 		var counter = 0;
@@ -103,21 +103,18 @@ var app =  {
 		var self  = this; 
 		var cc=0;
 
-     		$(result.xmlDocument).find('item').each(function(){
-                        var title   = $(this).find('title').text();
-                        var desc    = $(this).find('description').text();
-                        var local   = $(this).find('departamento').text();
-                        var data    = $(this).find('data').text();
-                        var hora    = $(this).find('hora').text();
-                        if(cc>=0) {
-                                self.tweetQueue.push( '<div class="evento"><div class="evento_datahora">'+data+' | ' + hora + ' </div> <div class="evento_local">'+local+'</div><div class="evento_descricao">'+desc+'</div></div>');
+        $(result.xmlDocument).find('item').each(function(){
+              var title   = $(this).find('title').text();
+              var desc    = $(this).find('description').text();
+              var local   = $(this).find('departamento').text();
+              var data    = $(this).find('data').text();
+              var hora    = $(this).find('hora').text();
+              if(cc>=0) {
+                 self.tweetQueue.push( '<div class="evento"><div class="evento_datahora">'+data+' | ' + hora + ' </div> <div class="evento_local">'+local+'</div><div class="evento_descricao">'+desc+'</div></div>');
 //                                self.tweetQueue.push( '<div class="evento"><div class="evento_titulo">'+title+'</div><div class="evento_descricao">'+desc+'</div><div class="evento_datahora">'+data+' | ' + hora + ' </div> <div class="evento_local">'+local+'</div></div>');
-
-                                cc++;
-                        }
-                });
-
-
+                  cc++;
+              }
+        });
 		var self = this;
 		self.render();
 	}
