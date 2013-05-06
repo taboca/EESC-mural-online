@@ -21,6 +21,7 @@ case "$1" in
     /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/httpserver.json
     /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/screenshots.json
     /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/eventos.json
+    /usr/local/bin/forever -p /root/.forever --sourceDir=/home/tela/TelaSocial-Mediator start mediator.js app ./scripts/destaques.json
     ;;
   stop)
     exec /usr/local/bin/forever stopall
