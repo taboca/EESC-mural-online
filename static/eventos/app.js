@@ -88,7 +88,7 @@ var app =  {
 
 				this.total--;
 			} 
-			setTimeout( function () { self.render() }, 8000);
+			setTimeout( function () { self.render() }, 10000);
 		} 
 	},
 
