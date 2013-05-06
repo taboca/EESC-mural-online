@@ -114,6 +114,8 @@ var app =  {
               var sDate = s0[1];
               var sMon = s0[2];
               var sMonList = new Array();
+              var sMont = new Array();
+              var sYear = s0[3];
 
               sMonList['Jan']='Jan';
               sMonList['Feb']='Fev';
@@ -127,18 +129,45 @@ var app =  {
               sMonList['Oct']='Oct';
               sMonList['Nov']='Nov';
               sMonList['Dec']='Dez';
-              
-              var sYear = s0[3];
-              data = sDate + ' ' + sMonList[sMon] + ' ' + sYear;
-              //data =  tempo.get(data);
-              //var hora    = $(this).find('hora').text();
-              var hora    = '';
-              var desc    = '';
-              if(cc>=0) {
-                 self.tweetQueue.push( '<div class="evento"><div class="evento_datahora">'+data+ ' </div> <div class="evento_descricao">'+title+'</div></div>');
-//                                self.tweetQueue.push( '<div class="evento"><div class="evento_titulo">'+title+'</div><div class="evento_descricao">'+desc+'</div><div class="evento_datahora">'+data+' | ' + hora + ' </div> <div class="evento_local">'+local+'</div></div>');
-                  cc++;
-              }
+
+              sMont['Jan']=0;
+              sMont['Feb']=1;
+              sMont['Mar']=2;
+              sMont['Apr']=3;
+              sMont['May']=4;
+              sMont['Jun']=5;
+              sMont['Jul']=6;
+              sMont['Aug']=7;
+              sMont['Set']=8;
+              sMont['Oct']=9;
+              sMont['Nov']=10;
+              sMont['Dec']=11;
+
+              /*
+              var progrDate = new Date();
+              progrDate.setMonth(parseInt(sMont[sMon]);
+              progrDate.setDate(parseInt(sDate));
+              progrDate.setYear(sYear);
+              */
+ 
+              var fMes = parseInt(sMont[sMon]);
+              var fDia = parseInt(sDate);
+              var fAno = parseInt(sYear);
+
+              var todayDate = new Date(); 
+              var hDia = parseInt(todayDate.getDate());
+              var hMes = parseInt(todayDate.getMonth());
+              var hAno = parseInt(todayDate.getYear());
+
+              if(fAno>=hAno&&fMes>=hMes&&fDia>=hDia) { 
+                 data = sDate + ' ' + sMonList[sMon] + ' ' + sYear;
+                 var hora    = '';
+                 var desc    = '';
+                 if(cc>=0) {
+                   self.tweetQueue.push( '<div class="evento"><div class="evento_datahora">'+data+ ' </div> <div class="evento_descricao">'+title+'</div></div>');
+                    cc++;
+                 }
+              } 
         });
 		var self = this;
 		self.render();

@@ -39,10 +39,7 @@
 var tempo =  {
     mos: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
 	get : function (pDate) {
-        this.data = null; 
-        if(pDate) { 
-            this.data = new Date(pDate);
-        }
+        this.data = new Date();
 
         var hour = this.data.getHours();
         var min = this.data.getMinutes();
