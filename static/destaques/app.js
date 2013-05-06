@@ -49,7 +49,7 @@ var app =  {
 
 		var obj = this.picQueue.pop();
 		var t = obj.title; 
-		var d = obj.desc; 
+		var d = obj.descFull; 
 		var src = obj.src;
 
 		document.getElementById("container").removeChild(this.background);
@@ -73,20 +73,21 @@ var app =  {
 	transitionTo: function (t,d) { 
 
 		var k = document.createElement('div');
-		k.className = 'app_element';
-		k.innerHTML = '<div class="title">'+t+'</div><div class="description">'+d+'</div>';
+		k.className = 'flexcontainer';
+		k.innerHTML = '<div class="flex title" >'+t+'</div><div class="flex" data-flex="expand"></div><div class="flex description">'+d+'</div>';
 		
 		var t = 4;
 	        var mm = "-moz-transition-property: opacity; -moz-transition-duration:"+t+"s;opacity:0 ; "
 	        var oo = "-o-transition-property: opacity; -o-transition-duration:"+t+"s;opacity:0 ; "
 	        var ww = "-webkit-transition-property: opacity; -webkit-transition-duration:"+t+"s;opacity:0 ; "
 
-	        this.background.setAttribute("style", mm  + oo + ww);
+        this.background.setAttribute("style", mm  + oo + ww);
 
 		var old = this.element.firstChild;
 		this.element.insertBefore(k, this.element.firstChild);
 		this.element.removeChild(old);
 
+        refreshFlex();
 		var self = this;
 		setTimeout( function(){self.updateFeed()},8000);
 		return true;
