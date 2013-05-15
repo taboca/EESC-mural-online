@@ -114,8 +114,8 @@ var app =  {
               var hMes = parseInt(todayDate.getMonth());
               var hAno = parseInt(todayDate.getYear());
 
-              if(dv.fAno>=hAno&&dv.fMes>=hMes&&dv.fDia>=hDia) { 
-                 data = sDate + ' ' + sMonList[sMon] + ' ' + sYear;
+              if(dv.ano>=hAno&&dv.mes>=hMes&&dv.dia>=hDia) { 
+                 data = dv.strDate + ' ' + dv.strMonth + ' ' + dv.strYear;
                  var hora    = '';
                  var desc    = '';
                  if(cc>=0) {

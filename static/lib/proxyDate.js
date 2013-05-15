@@ -54,7 +54,7 @@ function doFilterDraftUTC1123EnglishToBr(data) {
    sMonList['Jul']='Jul';
    sMonList['Aug']='Ago';
    sMonList['Set']='Set';
-   sMonList['Oct']='Oct';
+   sMonList['Oct']='Out';
    sMonList['Nov']='Nov';
    sMonList['Dec']='Dez';
 
@@ -75,7 +75,7 @@ function doFilterDraftUTC1123EnglishToBr(data) {
    var fDia = parseInt(sDate);
    var fAno = parseInt(sYear);
 
-   var result = {'dia':fDia, 'mes':fMes, 'ano':fAno }
+   var result = {'dia':fDia, 'mes':fMes, 'ano':fAno , 'strMonth': sMonList[sMon], 'strDate':sDate, 'strYear': sYear}
    return result; 
 }
 
