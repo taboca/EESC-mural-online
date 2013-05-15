@@ -74,8 +74,13 @@ function doFilterDraftUTC1123EnglishToBr(data) {
    var fMes = parseInt(sMont[sMon]);
    var fDia = parseInt(sDate);
    var fAno = parseInt(sYear);
+ 
+   var hours = s0[4];
+   var hoursHour = hours[0];
+   var hoursMin = hours[1];
 
-   var result = {'dia':fDia, 'mes':fMes, 'ano':fAno , 'strMonth': sMonList[sMon], 'strDate':sDate, 'strYear': sYear}
+   var result = {'dia':fDia, 'mes':fMes, 'ano':fAno , 'strMonth': sMonList[sMon], 'strDate':sDate, 'strYear': sYear, 'strHours': hoursHour, 'strMinutes':hoursMin}
+
    return result; 
 }
 
