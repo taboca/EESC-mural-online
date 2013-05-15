@@ -40,9 +40,9 @@ var app =  {
 	feed    : null, 
 	start : function() {
 
-                this.elementStore = document.createElement('div');
+        this.elementStore = document.createElement('div');
 		this.elementStore.setAttribute("id","container");
-		document.body.appendChild(this.elementStore);
+		document.getElementById('base').appendChild(this.elementStore);
 		this.element = document.createElement('div');
 		this.element.className="";
 		this.element.id = Math.random();
