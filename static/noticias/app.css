@@ -26,13 +26,8 @@
 	margin-top:0em;
 	margin-bottom:.2em;
     } 
-    div.desc { 
-	font-size:22px ! important;
-	margin-bottom:5px;
-	color:#777 ! important;
-	border:0px solid red;
+    div.descFull { 
+	font-size:19px;
 	overflow:hidden;
-	text-overflow:ellipsis; 
-	height:180px;
     } 
 
