@@ -1,0 +1,8 @@
+    #mask  { 
+         position:absolute;
+         background:url(../vendor/eesc.png) no-repeat; 
+         width:2160px; 
+         height:3840px;
+         z-index:1000;
+    }
+
