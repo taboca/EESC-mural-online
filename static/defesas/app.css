@@ -77,12 +77,13 @@ div.itemshadow {
 
 div.item { 
 	color:#444;
+	color:#fff;
 	margin:.6em;
     border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
     width:350px;
 	margin-left:.2em;
-    background: -moz-radial-gradient( 50% 50%, circle farthest-corner ,  #fff, #ccc);
-	box-shadow: 3px 3px 5px #555;
+    background: -moz-radial-gradient( 50% 50%, circle farthest-corner ,  #fff, #ddd);
     overflow:hidden;
 } 
 
