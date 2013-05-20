@@ -8,7 +8,7 @@ h3 {
 
 .defesas {
 	color:black;
-        padding:.5em;
+    padding:.5em;
 	display:flex;
 	flex-direction:column;
 	height:270px;
@@ -58,28 +58,28 @@ h3 {
 } 
 
 .defesa_descricao { 
-        font-size:14px;
+    font-size:14px;
 	color:#555;
 	display:block;
 	flex:1 1 50%;
 	overflow: hidden;
 } 
 
-    body { 
- 	font-weight:bold;	
+body { 
+	font-weight:bold;	
 	padding:10px;
 	padding-top:0;
-    } 
+} 
 
-    div.itemshadow { 
-    } 
+div.itemshadow { 
+} 
 
-    div.item { 
+div.item { 
 	color:#444;
 	margin:.6em;
 	margin-left:.2em;
-        background: -moz-radial-gradient( 50% 0%, circle,  #eee, #777);
+    background: -moz-radial-gradient( 50% 50%, circle farthest-corner ,  #fff, #eee, #aaa);
 	box-shadow: 3px 3px 5px #555;
-        overflow:hidden;
-    } 
+    overflow:hidden;
+} 
 
