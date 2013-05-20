@@ -12,6 +12,7 @@ h3 {
 	display:flex;
 	flex-direction:column;
 	height:270px;
+    width:330px;
 	overflow:hidden;
 } 
 
@@ -77,8 +78,10 @@ div.itemshadow {
 div.item { 
 	color:#444;
 	margin:.6em;
+    border-top-left-radius:25px;
+    width:350px;
 	margin-left:.2em;
-    background: -moz-radial-gradient( 50% 50%, circle farthest-corner ,  #fff, #eee, #aaa);
+    background: -moz-radial-gradient( 50% 50%, circle farthest-corner ,  #fff, #ccc);
 	box-shadow: 3px 3px 5px #555;
     overflow:hidden;
 } 
