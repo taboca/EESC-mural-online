@@ -15,7 +15,7 @@ $(document).ready(function() {
    register("/main/fundo", "grade", "./eventos/index.html", iframeTemplate);
    compile();   
    setTimeout('startEngine()',5000);
-   aMask();
+   //aMask();
 
 });
 
