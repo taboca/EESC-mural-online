@@ -111,7 +111,7 @@ var app =  {
                         var hora    = $(this).find('hora').text();
                         var ref    = $(this).find('ref').text();
                         if(cc>=0) {
-                                self.tweetQueue.push( '<div class="defesas"><div class="defesa_titulo">'+title+'</div><div class="defesa_descricao">'+desc+'</div><div class="defesa_orientador"><p>'+ref+'</p></div> <div class="defesa_datahora">'+data+' | ' + hora + ' </div> <div class="defesa_local">'+local+'</div></div>');
+                                self.tweetQueue.push( '<div class="defesas"><div class="defesa_titulo">'+title+'</div><div class="defesa_descricao">'+desc+'</div><div class="defesa_orientador"><h3>Autor / Orientador</h3><p>'+ref+'</p></div> <div class="defesa_datahora">'+data+' | ' + hora + ' </div> <div class="defesa_local">'+local+'</div></div>');
                                 cc++;
                         }
                 });

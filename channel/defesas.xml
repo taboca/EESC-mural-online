@@ -1,73 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<?xml-stylesheet href="/portaleesc/components/com_jevents/views/ext/assets/css/modstyle.css" type="text/css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-	<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+		<title>Teses e Dissertações - Escola de Engenharia de São Carlos da Universidade de São Paulo</title>
+		<description><![CDATA[Guia de Programação dos eventos.]]></description>
+		<link>http://www.eesc.usp.br/portaleesc</link>
+		<lastBuildDate>Fri, 24 May 2013 15:43:25 -0300</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=modlatest.rss&amp;format=feed&amp;type=rss&amp;modid=185"/>
+		<image>
+			<url>http://www.eesc.usp.br/portaleesc/administrator/components/com_jevents/assets/images/logo.gif</url>
+			<title>Teses e Dissertações</title>
+			<link>http://www.eesc.usp.br/portaleesc/</link>
+			<description><![CDATA[Guia de Programação dos eventos.]]></description>
+		</image>
+		<language>pt-br</language>
+		<item>
+			<title>Tese: Modelagem e simulação da hidrodinâmica em aeração forçada considerando aspectos globais de escoamento turbulento</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=340&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=24&amp;title=tese-modelagem-e-simulacao-da-hidrodinamica-em-aeracao-forcada-considerando-aspectos-globais-de-escoamento-turbulento&amp;uid=8231d942a963d48f6f0d3a7553a1d5f2&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=340&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=24&amp;title=tese-modelagem-e-simulacao-da-hidrodinamica-em-aeracao-forcada-considerando-aspectos-globais-de-escoamento-turbulento&amp;uid=8231d942a963d48f6f0d3a7553a1d5f2&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Andreza Bortoloti Franco de Oliveira; Dependências do SHS; Prof. Dr. Nivaldo Aparecido Corrêa (SHS/EESC); ]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Fri, 24 May 2013 05:30:00 -0300</pubDate>
 		</item>
 		<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+			<title>Defesa: Projeto conceitual e protótipo de uma cadeira de rodas servo-assistida</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=345&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=27&amp;title=defesa-projeto-conceitual-e-prototipo-de-uma-cadeira-de-rodas-servo-assistida&amp;uid=4458bba15681a931d2e5aa14a50083b2&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=345&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=27&amp;title=defesa-projeto-conceitual-e-prototipo-de-uma-cadeira-de-rodas-servo-assistida&amp;uid=4458bba15681a931d2e5aa14a50083b2&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Fausto Orsi Medola; Sala de seminários da Bioengenharia-EESC/USP; Profª. Drª. Valéria Meirelles Carril Elui (docente FMRP/USP); ]]></description>
+			<category>Programa - Bioengenharia</category>
+			<pubDate>Mon, 27 May 2013 05:30:00 -0300</pubDate>
 		</item>
 		<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+			<title>Dissertação: Estudo da viabilidade geológica, geotécnica e geoquímica de solos argilosos como barreiras selantes - Vale do Ribeira (SP)</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=337&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=27&amp;title=dissertacao-estudo-da-viabilidade-geologica-geotecnica-e-geoquimica-de-solos-argilosos-como-barreiras-selantes-vale-do-ribeira-sp&amp;uid=fe91a0b62b6a792c1be74db4febd3a33&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=337&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=27&amp;title=dissertacao-estudo-da-viabilidade-geologica-geotecnica-e-geoquimica-de-solos-argilosos-como-barreiras-selantes-vale-do-ribeira-sp&amp;uid=fe91a0b62b6a792c1be74db4febd3a33&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Jaqueline Ruiz Rodríguez; Dependências do SGS; Profª. Drª. Valéria Guimarães Silvestre Rodrigues (SGS/EESC); ]]></description>
+			<category>Programa - Geotecnia</category>
+			<pubDate>Mon, 27 May 2013 07:00:00 -0300</pubDate>
 		</item>
 		<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+			<title>Dissertação: Projeto de amplificadores de baixo ruído usando algoritmos metaheurísticos</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=338&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=27&amp;title=dissertacao-projeto-de-amplificadores-de-baixo-ruido-usando-algoritmos-metaheuristicos&amp;uid=f235e27e8b585d329e442bbfa253d71c&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=338&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=27&amp;title=dissertacao-projeto-de-amplificadores-de-baixo-ruido-usando-algoritmos-metaheuristicos&amp;uid=f235e27e8b585d329e442bbfa253d71c&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Cesar Willian Vera Casañas; Dependências do SEL; Prof. Dr. João Navarro Soares Júnior (SEL/EESC); ]]></description>
+			<category>Programa - Engenharia Elétrica</category>
+			<pubDate>Mon, 27 May 2013 12:00:00 -0300</pubDate>
 		</item>
 		<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+			<title>Dissertação: Edifícios com lajes maciças e paredes portantes pré-moldadas de concreto leve com pérolas de EPS</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=341&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=28&amp;title=dissertacao-edificios-com-lajes-macicas-e-paredes-portantes-pre-moldadas-de-concreto-leve-com-perolas-de-eps&amp;uid=d0255f07f6b3eb542c0f26db35e4c438&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=341&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=28&amp;title=dissertacao-edificios-com-lajes-macicas-e-paredes-portantes-pre-moldadas-de-concreto-leve-com-perolas-de-eps&amp;uid=d0255f07f6b3eb542c0f26db35e4c438&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Diego de Vasconcelos Gonçalves Ferreira; Dependências do SET; Prof. Dr. Libânio Miranda Pinheiro (SET/EESC); ]]></description>
+			<category>Programa - Engenharia de Estruturas</category>
+			<pubDate>Tue, 28 May 2013 06:00:00 -0300</pubDate>
 		</item>
 		<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+			<title>Tese: Ecologia e controle da invasão de 'Pinus elliottii' no campo cerrado</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=348&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=28&amp;title=tese-ecologia-e-controle-da-invasao-de-pinus-elliottii-no-campo-cerrado&amp;uid=98116c18285a31ed27296e8728aaa862&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=348&amp;Itemid=178&amp;year=2013&amp;month=05&amp;day=28&amp;title=tese-ecologia-e-controle-da-invasao-de-pinus-elliottii-no-campo-cerrado&amp;uid=98116c18285a31ed27296e8728aaa862&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Rodolfo Cesar Real de Abreu; Dependências do CRHEA; Drª. Giselda Durigan (Instituto Florestal do Estado de SP); ]]></description>
+			<category>Programa - Ciências da Eng. Ambiental</category>
+			<pubDate>Tue, 28 May 2013 10:00:00 -0300</pubDate>
 		</item>
-	
 		<item>
-		<title>Defesa de Mestrado</title>
-		<description>Dissertação: Uma proposta de modelo de aprendizagem problematizadora no ensino de engenharia de produção com foco no desenvolvimento do pensamento crítico</description>
-		<ref>Camila Regiane Marques Pereira
-Prof. Dr. Carlos Roberto de Arruda</ref>
-		<data>22/07/2012</data>
-		<hora>14:00</hora>
-		<departamento>Engenharia Elétrica</departamento>
+			<title>Dissertação: Planejamento cinemático-dinâmico de movimento com desvio local de obstáculos utilizando malhas de estados</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=349&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=06&amp;title=dissertacao-planejamento-cinematico-dinamico-de-movimento-com-desvio-local-de-obstaculos-utilizando-malhas-de-estados&amp;uid=f8ed8becf26c721c63b6b9aaa2a78513&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=349&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=06&amp;title=dissertacao-planejamento-cinematico-dinamico-de-movimento-com-desvio-local-de-obstaculos-utilizando-malhas-de-estados&amp;uid=f8ed8becf26c721c63b6b9aaa2a78513&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[André Chaves Magalhães; Dependências do SEL; Prof. Dr. Valdir Grassi Júnior (SEL/EESC); ]]></description>
+			<category>Programa - Engenharia Elétrica</category>
+			<pubDate>Thu, 06 Jun 2013 11:00:00 -0300</pubDate>
 		</item>
-		
+		<item>
+			<title>Dissertação: Estudo de parâmetros envolvidos na transferência de oxigênio em meio hídrico aerado por bolhas</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=350&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=07&amp;title=dissertacao-estudo-de-parametros-envolvidos-na-transferencia-de-oxigenio-em-meio-hidrico-aerado-por-bolhas&amp;uid=b1e6e30382621eba2af2efd2630676af&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=350&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=07&amp;title=dissertacao-estudo-de-parametros-envolvidos-na-transferencia-de-oxigenio-em-meio-hidrico-aerado-por-bolhas&amp;uid=b1e6e30382621eba2af2efd2630676af&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Guilherme Araújo Vuitik; Dependências do SHS; Prof. Dr. Nivaldo Aparecido Corrêa (SHS/EESC); ]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Fri, 07 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>Tese: Avaliação dos efeitos do agrotóxico Vertimec® 18 CE em ecossistemas de água doce por meio de estudos experimentais em laboratório e in situ</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=351&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=10&amp;title=tese-avaliacao-dos-efeitos-do-agrotoxico-vertimec-18-ce-em-ecossistemas-de-agua-doce-por-meio-de-estudos-experimentais-em-laboratorio-e-in-situ&amp;uid=ea72599cfaf5d6d17affd6bd6d8e7537&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=351&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=10&amp;title=tese-avaliacao-dos-efeitos-do-agrotoxico-vertimec-18-ce-em-ecossistemas-de-agua-doce-por-meio-de-estudos-experimentais-em-laboratorio-e-in-situ&amp;uid=ea72599cfaf5d6d17affd6bd6d8e7537&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Raphael Campitelli Ramos; Dependências do CRHEA; Profª. Drª. Odete Rocha (UFSCar); ]]></description>
+			<category>Programa - Ciências da Eng. Ambiental</category>
+			<pubDate>Mon, 10 Jun 2013 05:30:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>Dissertação: Emprego de filtro de fibras flexíveis constituído de sisal e de polipropileno na clarificação de água para abastecimento</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=dissertacao-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=dissertacao-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Alice Kimie Martins Morita; Dependências do SHS; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); ]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Wed, 12 Jun 2013 11:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>Tese: Aprendizagem baseada em problemas - desenvolvimento de competências para o ensino em engenharia</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=tese-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=tese-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Adriana Casale; SEP; Prof. Dr. Edson Walmir Cazarini – (SEP/EESC); ]]></description>
+			<category>Programa - Engenharia de Produção</category>
+			<pubDate>Thu, 13 Jun 2013 10:30:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>Dissertação: Tratamento físico-químico de vinhaça por coagulação, floculação e sedimentação e seu aproveitamento no cultivo da microalga Chlorella vulgaris visando a produção de biocombustível</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=dissertacao-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=dissertacao-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Davi Ambrozio Lóio; Dependências do SHS; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); ]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Tue, 18 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
 	</channel>
 </rss>
