@@ -106,12 +106,11 @@ var app =  {
      		$(result.xmlDocument).find('item').each(function(){
                         var title   = $(this).find('title').text();
                         var desc    = $(this).find('description').text();
-                        var local   = $(this).find('departamento').text();
-                        var data    = $(this).find('data').text();
-                        var hora    = $(this).find('hora').text();
-                        var ref    = $(this).find('ref').text();
-                        if(cc>=0) {
-                                self.tweetQueue.push( '<div class="defesas"><div class="defesa_titulo">'+title+'</div><div class="defesa_descricao">'+desc+'</div><div class="defesa_orientador"><h3>Autor / Orientador</h3><p>'+ref+'</p></div> <div class="defesa_datahora">'+data+' | ' + hora + ' </div> <div class="defesa_local">'+local+'</div></div>');
+                        var local   = $(this).find('category').text();
+                        var data    = $(this).find('pubDate').text();
+                        //var ref    = $(this).find('ref').text();
+                        if(cc>=0)  {
+                                self.tweetQueue.push( '<div class="defesas"> <div class="defesa_local">'+local+'</div>  <div class="defesa_datahora">'+data+'</div><div class="defesa_titulo">'+title+'</div><div class="defesa_orientador"><h3>Autor / Orientador</h3>  <div class="defesa_descricao">'+desc+'</div>  </div> </div>');
                                 cc++;
                         }
                 });
