@@ -89,13 +89,15 @@ var app =  {
 				var descFull = localItem.find('.descFull').text();
 				var src = localItem.find('img').attr('src');
 				var obj = {'title':title,'desc':desc,'src':src, 'descFull':descFull};
-				t8l.message('/main/destaques', JSON.stringify(obj));
+                if(typeof src != 'undefined') { 
+			     	t8l.message('/main/destaques', JSON.stringify(obj));
+                }
 				$($("div.item")[0]).animate({height:'hide'}, 1000, function() {  $($("div.item")[0]).remove() } );
 				$($("div.itemshadow")[0]).animate({height:'hide'}, 1000, function() {  $($("div.itemshadow")[0]).remove() } );
 
 				this.total--;
 			} 
-			setTimeout( function () { self.render() }, 14000);
+			setTimeout( function () { self.render() }, 15000);
 		} 
 	},
 
@@ -112,16 +114,17 @@ var app =  {
      		$(result.xmlDocument).find('item').each(function(){
                 var title   = $(this).find('title').text();
     			var link = $(this).find('description').text();
-                var src = 'http://farm1.staticflickr.com/74/156708728_dd56ff367e_b.jpg';
+                var src = '';
                 try { 
                   if (link.indexOf('http')>-1) { 
     			     src = "http"+link.split('http')[1].split('jpg')[0]+"jpg";
+                     link = link.split('#IMG')[0];
+                     src = '<img src="'+src+'" style="display:none"/>';
                   } 
                 } catch(i) { }  
     			$('#temp').html(link);
     			var desc = $('#temp').text();	
-	
-                self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="descFull">'+desc+'</div><img src="'+src+'" style="display:none"/></div>' );
+                self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="descFull">'+desc+'</div>'+src+'</div>' );
                 cc++;
             });
 
