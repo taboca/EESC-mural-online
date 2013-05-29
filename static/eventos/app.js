@@ -116,7 +116,7 @@ var app =  {
 
               //alert(dv.ano + ' ' + dv.mes + ' ' + dv.dia + ' / ' + hAno + ' ' + hMes + ' ' + hDia) ;
               if(dv.ano>=hAno&&dv.mes>=hMes&&dv.dia>=hDia) { 
-                 data = dv.strDate + ' ' + dv.strMonth + ' ' + dv.strYear;
+                 data = dv.strDate + ' ' + dv.strMonth ;
                  var hora    = '';
                  var desc    = '';
                  if(cc>=0) {

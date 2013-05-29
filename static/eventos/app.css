@@ -14,10 +14,10 @@ h3 {
 
 .evento_datahora { 
 	white-space: nowrap;
-	color:black;
-    background-color:#ddd;
+	color:white;
+    background-color:rgba(255,255,255,.1);
     border-radius:6px;
-    padding:5px;
+    padding:3px 8px 3px 8px;
     display:inline-block;
 } 
 
