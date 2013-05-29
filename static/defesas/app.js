@@ -108,6 +108,7 @@ var app =  {
                         var desc    = $(this).find('description').text();
                         var local   = $(this).find('category').text();
                         var data    = $(this).find('pubDate').text();
+                        data = doFilter(data);
                         //var ref    = $(this).find('ref').text();
                         if(cc>=0)  {
                                 self.tweetQueue.push( '<div class="defesas"> <div class="defesa_local">'+local+'</div>  <div class="defesa_datahora">'+data+'</div><div class="defesa_titulo">'+title+'</div><div class="defesa_orientador"><h3>Autor / Orientador</h3>  <div class="defesa_descricao">'+desc+'</div>  </div> </div>');

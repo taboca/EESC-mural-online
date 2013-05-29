@@ -105,61 +105,16 @@ var app =  {
 
         $(result.xmlDocument).find('item').each(function(){
               var title   = $(this).find('title').text();
-              //var desc    = $(this).find('description').text();
               var local   = ''; 
-              //var local   = $(this).find('departamento').text();
-              //var data    = '';
               var data    = $(this).find('pubDate').text();
-              var s0 = data.split(' ');
-              var sDate = s0[1];
-              var sMon = s0[2];
-              var sMonList = new Array();
-              var sMont = new Array();
-              var sYear = s0[3];
-
-              sMonList['Jan']='Jan';
-              sMonList['Feb']='Fev';
-              sMonList['Mar']='Mar';
-              sMonList['Apr']='Abr';
-              sMonList['May']='Mai';
-              sMonList['Jun']='Jun';
-              sMonList['Jul']='Jul';
-              sMonList['Aug']='Ago';
-              sMonList['Set']='Set';
-              sMonList['Oct']='Oct';
-              sMonList['Nov']='Nov';
-              sMonList['Dec']='Dez';
-
-              sMont['Jan']=0;
-              sMont['Feb']=1;
-              sMont['Mar']=2;
-              sMont['Apr']=3;
-              sMont['May']=4;
-              sMont['Jun']=5;
-              sMont['Jul']=6;
-              sMont['Aug']=7;
-              sMont['Set']=8;
-              sMont['Oct']=9;
-              sMont['Nov']=10;
-              sMont['Dec']=11;
-
-              /*
-              var progrDate = new Date();
-              progrDate.setMonth(parseInt(sMont[sMon]);
-              progrDate.setDate(parseInt(sDate));
-              progrDate.setYear(sYear);
-              */
- 
-              var fMes = parseInt(sMont[sMon]);
-              var fDia = parseInt(sDate);
-              var fAno = parseInt(sYear);
+              var dv = doFilterDraftUTC1123EnglishToBr(data);
 
               var todayDate = new Date(); 
               var hDia = parseInt(todayDate.getDate());
               var hMes = parseInt(todayDate.getMonth());
               var hAno = parseInt(todayDate.getYear());
 
-              if(fAno>=hAno&&fMes>=hMes&&fDia>=hDia) { 
+              if(dv.fAno>=hAno&&dv.fMes>=hMes&&dv.fDia>=hDia) { 
                  data = sDate + ' ' + sMonList[sMon] + ' ' + sYear;
                  var hora    = '';
                  var desc    = '';

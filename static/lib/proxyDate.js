@@ -35,6 +35,75 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
+function doFilterDraftUTC1123EnglishToBr(data) {
+   // This is UTC http://www.csgnetwork.com/timerfc1123calc.html
+   // In English 
+   var s0 = data.split(' ');
+   var sDate = s0[1];
+   var sMon = s0[2];
+   var sMonList = new Array();
+   var sMont = new Array();
+   var sYear = s0[3];
+
+   sMonList['Jan']='Jan';
+   sMonList['Feb']='Fev';
+   sMonList['Mar']='Mar';
+   sMonList['Apr']='Abr';
+   sMonList['May']='Mai';
+   sMonList['Jun']='Jun';
+   sMonList['Jul']='Jul';
+   sMonList['Aug']='Ago';
+   sMonList['Set']='Set';
+   sMonList['Oct']='Oct';
+   sMonList['Nov']='Nov';
+   sMonList['Dec']='Dez';
+
+   sMont['Jan']=0;
+   sMont['Feb']=1;
+   sMont['Mar']=2;
+   sMont['Apr']=3;
+   sMont['May']=4;
+   sMont['Jun']=5;
+   sMont['Jul']=6;
+   sMont['Aug']=7;
+   sMont['Set']=8;
+   sMont['Oct']=9;
+   sMont['Nov']=10;
+   sMont['Dec']=11;
+
+   var fMes = parseInt(sMont[sMon]);
+   var fDia = parseInt(sDate);
+   var fAno = parseInt(sYear);
+
+   var result = {'dia':fDia, 'mes':fMes, 'ano':fAno }
+   return result; 
+}
+
+function doFilter(strDate) { 
+   var date = new Date(Date.parse(strDate));
+   return date; 
+} 
+
+function doHoje()  {
+    var mos = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
+    this.data = new Date();
+    var hour = this.data.getHours();
+    var min = this.data.getMinutes();
+    var secs = this.data.getSeconds();
+    var prefix = "";
+    var prefixmin = "";
+    if(secs<=9) { 
+    	prefix = "0";
+    } 
+    if(min<=9) { 
+        prefixmin = "0";
+    } 
+    var ddd = new Date();
+    var yy = ddd.getFullYear();
+    var dd = ddd.getDate();
+    var mm = mos[ddd.getMonth()];
+    return dd + ' de ' + mm + ' de ' + yy; 
+}
 
 var calendar =  {
 
