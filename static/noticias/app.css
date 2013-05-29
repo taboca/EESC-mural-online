@@ -28,5 +28,7 @@
     div.descFull { 
 	font-size:19px;
 	overflow:hidden;
+    text-align:justify;
+    margin-right:1em;
     } 
 
