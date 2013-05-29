@@ -5,9 +5,9 @@
 
     div.itemshadow { 
 	background:url(../vendor/shadow.png) 50% 0 no-repeat; 
-	background-size: 330px 60px; 
-	opacity:.5;
-	margin-top:.5em;
+	background-size: 530px 40px; 
+	opacity:.3;
+	margin-top:10px;
 	height:16px; 
 	width:100%;
     } 
@@ -16,7 +16,8 @@
 	margin-top:10px;
 	overflow:hidden;
 	margin-left:.8em;
-	height:272px;
+    padding-bottom:0px;
+	height:252px;
     } 
     div h3 { 
 	font-size:200%;
