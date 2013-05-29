@@ -74,7 +74,8 @@ var app =  {
 
 		var k = document.createElement('div');
 		k.className = 'flexcontainer';
-		k.innerHTML = '<div class="flex title" >'+t+'</div><div class="flex" data-flex="expand"></div><div class="flex description">'+d+'</div>';
+        // NOte expand ->  nonet 
+		k.innerHTML = '<div class="flex title" >'+t+'</div><div class="flex" data-flex="none"></div><div class="flex description">'+d+'</div>';
 		
 		var t = 4;
 	        var mm = "-moz-transition-property: opacity; -moz-transition-duration:"+t+"s;opacity:0 ; "
@@ -89,7 +90,7 @@ var app =  {
 
         refreshFlex();
 		var self = this;
-		setTimeout( function(){self.updateFeed()},8000);
+		setTimeout( function(){self.updateFeed()},3000);
 		return true;
 	},
 
