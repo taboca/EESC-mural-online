@@ -112,8 +112,9 @@ var app =  {
               var todayDate = new Date(); 
               var hDia = parseInt(todayDate.getDate());
               var hMes = parseInt(todayDate.getMonth());
-              var hAno = parseInt(todayDate.getYear());
+              var hAno = parseInt(todayDate.getUTCFullYear());
 
+              //alert(dv.ano + ' ' + dv.mes + ' ' + dv.dia + ' / ' + hAno + ' ' + hMes + ' ' + hDia) ;
               if(dv.ano>=hAno&&dv.mes>=hMes&&dv.dia>=hDia) { 
                  data = dv.strDate + ' ' + dv.strMonth + ' ' + dv.strYear;
                  var hora    = '';
