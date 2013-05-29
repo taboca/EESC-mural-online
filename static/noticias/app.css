@@ -13,9 +13,10 @@
     } 
     div.item { 
 	color:#444;
-	margin-top:.5em;
+	margin-top:10px;
+	overflow:hidden;
 	margin-left:.8em;
-	height:275px;
+	height:272px;
     } 
     div h3 { 
 	font-size:200%;
