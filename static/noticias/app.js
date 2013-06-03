@@ -97,7 +97,7 @@ var app =  {
 
 				this.total--;
 			} 
-			setTimeout( function () { self.render() }, 17500);
+			setTimeout( function () { self.render() }, 15500);
 		} 
 	},
 
@@ -120,8 +120,7 @@ var app =  {
                 if(imageData.check) { 
                      imageDump = '<img src="'+imageData.src+'" style="display:none"/>';
                 } 
-    			$('#temp').html(link);
-    			var desc = $('#temp').text();	
+    			var desc = imageData.strip;
                 self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="descFull">'+desc+'</div>'+imageDump+'</div>' );
                 cc++;
             });
