@@ -6,7 +6,7 @@
 		<title>Teses e Dissertações - Escola de Engenharia de São Carlos da Universidade de São Paulo</title>
 		<description><![CDATA[Guia de Programação dos eventos.]]></description>
 		<link>http://www.eesc.usp.br/portaleesc</link>
-		<lastBuildDate>Mon, 03 Jun 2013 10:42:21 -0300</lastBuildDate>
+		<lastBuildDate>Mon, 03 Jun 2013 15:59:16 -0300</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
 		<atom:link rel="self" type="application/rss+xml" href="http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=modlatest.rss&amp;format=feed&amp;type=rss&amp;modid=185"/>
 		<image>
@@ -20,7 +20,7 @@
 			<title>[M] Planejamento cinemático-dinâmico de movimento com desvio local de obstáculos utilizando malhas de estados</title>
 			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=349&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=06&amp;title=m-planejamento-cinematico-dinamico-de-movimento-com-desvio-local-de-obstaculos-utilizando-malhas-de-estados&amp;uid=f8ed8becf26c721c63b6b9aaa2a78513&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
 			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=349&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=06&amp;title=m-planejamento-cinematico-dinamico-de-movimento-com-desvio-local-de-obstaculos-utilizando-malhas-de-estados&amp;uid=f8ed8becf26c721c63b6b9aaa2a78513&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[André Chaves Magalhães; Prof. Dr. Valdir Grassi Júnior; Depto Elétrica;]]></description>
+			<description><![CDATA[André Chaves Magalhães; Prof. Dr. Valdir Grassi Júnior; Depto. Elétrica;]]></description>
 			<category>Programa - Engenharia Elétrica</category>
 			<pubDate>Thu, 06 Jun 2013 11:00:00 -0300</pubDate>
 		</item>
@@ -49,28 +49,108 @@
 			<pubDate>Mon, 10 Jun 2013 13:00:00 -0300</pubDate>
 		</item>
 		<item>
-			<title>Dissertação: Emprego de filtro de fibras flexíveis constituído de sisal e de polipropileno na clarificação de água para abastecimento</title>
-			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=dissertacao-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
-			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=dissertacao-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[Alice Kimie Martins Morita; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); Dependências do SHS;]]></description>
+			<title>[M] Emprego de filtro de fibras flexíveis constituído de sisal e de polipropileno na clarificação de água para abastecimento</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=m-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=m-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Alice Kimie Martins Morita; Prof. Dr. Marco Antonio Penalva Reali; Depto. Hidráulica;]]></description>
 			<category>Programa - Eng. Hidráulica e Saneamento</category>
 			<pubDate>Wed, 12 Jun 2013 11:00:00 -0300</pubDate>
 		</item>
 		<item>
-			<title>Tese: Aprendizagem baseada em problemas - desenvolvimento de competências para o ensino em engenharia</title>
-			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=tese-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
-			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=tese-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[Adriana Casale; Prof. Dr. Edson Walmir Cazarini – (SEP/EESC); SEP;]]></description>
+			<title>[D] Aprendizagem baseada em problemas - desenvolvimento de competências para o ensino em engenharia</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=d-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=d-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Adriana Casale; Prof. Dr. Edson Walmir Cazarini; Depto. Produção;]]></description>
 			<category>Programa - Engenharia de Produção</category>
 			<pubDate>Thu, 13 Jun 2013 10:30:00 -0300</pubDate>
 		</item>
 		<item>
-			<title>Dissertação: Tratamento físico-químico de vinhaça por coagulação, floculação e sedimentação e seu aproveitamento no cultivo da microalga Chlorella vulgaris visando a produção de biocombustível</title>
-			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=dissertacao-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
-			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=dissertacao-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[Davi Ambrozio Lóio; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); Dependências do SHS;]]></description>
+			<title>[M] Influência do cálcio na produção biológica de hidrogênio a partir de águas residuárias em biorreatores anaeróbios</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=361&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=m-influencia-do-calcio-na-producao-biologica-de-hidrogenio-a-partir-de-aguas-residuarias-em-biorreatores-anaerobios&amp;uid=f88ebfe5ad8299136466f27abd09fe01&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=361&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=m-influencia-do-calcio-na-producao-biologica-de-hidrogenio-a-partir-de-aguas-residuarias-em-biorreatores-anaerobios&amp;uid=f88ebfe5ad8299136466f27abd09fe01&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Vivian Maria Carminato Blanco; Prof. Associado Marcelo Zaiat; Anf. da Ambiental;]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Fri, 14 Jun 2013 05:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[D] Planejamento e sustentabilidade: uma proposta de procedimentos com base na avaliação de sustentabilidade e sua aplicação para o caso do etanol de cana-de-açúcar no Plano Decenal de Expansão de Energia</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=353&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=d-planejamento-e-sustentabilidade-uma-proposta-de-procedimentos-com-base-na-avaliacao-de-sustentabilidade-e-sua-aplicacao-para-o-caso-do-etanol-de-cana-de-acucar-no-plano-decenal-de-expansao-de-energia&amp;uid=b25e4e5b05ab12b58df99c5daf1e4540&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=353&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=d-planejamento-e-sustentabilidade-uma-proposta-de-procedimentos-com-base-na-avaliacao-de-sustentabilidade-e-sua-aplicacao-para-o-caso-do-etanol-de-cana-de-acucar-no-plano-decenal-de-expansao-de-energia&amp;uid=b25e4e5b05ab12b58df99c5daf1e4540&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Carla Grigoletto Duarte; Prof. Dr. Tadeu Fabrício Malheiros; CISC;]]></description>
+			<category>Programa - Ciências da Eng. Ambiental</category>
+			<pubDate>Fri, 14 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] SIMCAP – ferramenta computacional para auxílio à tomada de decisão sobre a implantação de sistemas de captação de águas pluviais</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=362&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=m-simcap-ferramenta-computacional-para-auxilio-a-tomada-de-decisao-sobre-a-implantacao-de-sistemas-de-captacao-de-aguas-pluviais&amp;uid=0b93b286640b1bb5637a39b0f9e07cbc&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=362&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=m-simcap-ferramenta-computacional-para-auxilio-a-tomada-de-decisao-sobre-a-implantacao-de-sistemas-de-captacao-de-aguas-pluviais&amp;uid=0b93b286640b1bb5637a39b0f9e07cbc&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Priscila Marconi; Prof. Dr. João Luiz Boccia Brandão; Depto. Hidráulica;]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Fri, 14 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Determinação de coordenadas espaciais a partir do método das distâncias mínimas</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=363&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=m-determinacao-de-coordenadas-espaciais-a-partir-do-metodo-das-distancias-minimas&amp;uid=81321a0e27d0ac79e36bfb8b6b2f61b1&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=363&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=14&amp;title=m-determinacao-de-coordenadas-espaciais-a-partir-do-metodo-das-distancias-minimas&amp;uid=81321a0e27d0ac79e36bfb8b6b2f61b1&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Diego de Oliveira Martins; Prof. Dr. Irineu da Silva; Depto. Transportes;]]></description>
+			<category>Programa - Engenharia de Transportes</category>
+			<pubDate>Fri, 14 Jun 2013 06:30:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Metodologia de análise de variações de tensão causadas pela proteção anti-ilhamento de geradores síncronos distribuídos</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=354&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=17&amp;title=m-metodologia-de-analise-de-variacoes-de-tensao-causadas-pela-protecao-anti-ilhamento-de-geradores-sincronos-distribuidos&amp;uid=a059343a5e186cacf19711c291ac8d72&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=354&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=17&amp;title=m-metodologia-de-analise-de-variacoes-de-tensao-causadas-pela-protecao-anti-ilhamento-de-geradores-sincronos-distribuidos&amp;uid=a059343a5e186cacf19711c291ac8d72&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Klaus Vieira do Nascimento; Prof. Dr. José Carlos de Melo Vieira Júnior; Depto. Elétrica;]]></description>
+			<category>Programa - Engenharia Elétrica</category>
+			<pubDate>Mon, 17 Jun 2013 07:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[D] Desenvolvimento de nova tecnologia de manufatura aditiva baseado em formação seletiva de compósito</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=364&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=17&amp;title=d-desenvolvimento-de-nova-tecnologia-de-manufatura-aditiva-baseado-em-formacao-seletiva-de-composito&amp;uid=b24d9e660347b5a6088457cdb5909318&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=364&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=17&amp;title=d-desenvolvimento-de-nova-tecnologia-de-manufatura-aditiva-baseado-em-formacao-seletiva-de-composito&amp;uid=b24d9e660347b5a6088457cdb5909318&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Marlon Wesley Machado Cúnico; Prof. Associado Jonas de Carvalho; Depto. Mecânica;]]></description>
+			<category>Programa - Engenharia Mecânica</category>
+			<pubDate>Mon, 17 Jun 2013 11:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Tratamento físico-químico de vinhaça por coagulação, floculação e sedimentação e seu aproveitamento no cultivo da microalga Chlorella vulgaris visando a produção de biocombustível</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=m-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=m-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Davi Ambrozio Lóio; Prof. Dr. Marco Antonio Penalva Reali; Depto. Hidráulica;]]></description>
 			<category>Programa - Eng. Hidráulica e Saneamento</category>
 			<pubDate>Tue, 18 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Desempenho de reator vertical de fluxo contínuo e leito estruturado com recirculação do efluente, submetido à aeração intermitente, para a remoção de nitrogênio de efluente de UASB tratando águas residuárias domésticas</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=355&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=m-desempenho-de-reator-vertical-de-fluxo-continuo-e-leito-estruturado-com-recirculacao-do-efluente-submetido-a-aeracao-intermitente-para-a-remocao-de-nitrogenio-de-efluente-de-uasb-tratando-aguas-residuarias-domesticas&amp;uid=8ce06274e4d3ad98d42e30ee63269b7d&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=355&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=m-desempenho-de-reator-vertical-de-fluxo-continuo-e-leito-estruturado-com-recirculacao-do-efluente-submetido-a-aeracao-intermitente-para-a-remocao-de-nitrogenio-de-efluente-de-uasb-tratando-aguas-residuarias-domesticas&amp;uid=8ce06274e4d3ad98d42e30ee63269b7d&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Daví de Andrade Cordeiro Gadêlha; Prof. Titular Eugenio Foresti; Depto. Hidráulica;]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Tue, 18 Jun 2013 11:30:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Modelos de referência para o processo de desenvolvimento de produtos: novas possibilidades de representação</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=365&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=20&amp;title=m-modelos-de-referencia-para-o-processo-de-desenvolvimento-de-produtos-novas-possibilidades-de-representacao&amp;uid=f3c7d4bbfea118d5d7ab956ba7ddf7ed&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=365&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=20&amp;title=m-modelos-de-referencia-para-o-processo-de-desenvolvimento-de-produtos-novas-possibilidades-de-representacao&amp;uid=f3c7d4bbfea118d5d7ab956ba7ddf7ed&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Carolina Roman Amigo; Prof. Titular Henrique Rozenfeld; Biblioteca Central;]]></description>
+			<category>Programa - Engenharia de Produção</category>
+			<pubDate>Thu, 20 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Avaliação da qualidade ambiental de estabelecimentos comerciais da região central de São Carlos, SP</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=356&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=21&amp;title=m-avaliacao-da-qualidade-ambiental-de-estabelecimentos-comerciais-da-regiao-central-de-sao-carlos-sp&amp;uid=3bae6137fe5636f477b5ad94dd8aaf53&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=356&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=21&amp;title=m-avaliacao-da-qualidade-ambiental-de-estabelecimentos-comerciais-da-regiao-central-de-sao-carlos-sp&amp;uid=3bae6137fe5636f477b5ad94dd8aaf53&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Leandro Augusto Bassi Alves; Prof. Dr. Wiclef Dymurgo Marra Junior; Depto. Hidráulica;]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Fri, 21 Jun 2013 11:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[D] Uma proposta de sistema robótico para manipulação e interação física segura em ambientes não estruturados</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=357&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=28&amp;title=d-uma-proposta-de-sistema-robotico-para-manipulacao-e-interacao-fisica-segura-em-ambientes-nao-estruturados&amp;uid=183bbc526871b49f408caed770d44e90&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=357&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=28&amp;title=d-uma-proposta-de-sistema-robotico-para-manipulacao-e-interacao-fisica-segura-em-ambientes-nao-estruturados&amp;uid=183bbc526871b49f408caed770d44e90&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Leonardo Marquez Pedro; Prof. Associado Glauco Augusto de Paula Caurin; Depto. Mecânica;]]></description>
+			<category>Programa - Engenharia Mecânica</category>
+			<pubDate>Fri, 28 Jun 2013 10:30:00 -0300</pubDate>
 		</item>
 	</channel>
 </rss>

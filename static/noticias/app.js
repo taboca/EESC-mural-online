@@ -115,16 +115,14 @@ var app =  {
                 var title   = $(this).find('title').text();
     			var link = $(this).find('description').text();
                 var src = '';
-                try { 
-                  if (link.indexOf('http')>-1) { 
-    			     src = "http"+link.split('http')[1].split('jpg')[0]+"jpg";
-                     link = link.split('#IMG')[0];
-                     src = '<img src="'+src+'" style="display:none"/>';
-                  } 
-                } catch(i) { }  
+                var imageData = doFilter(this);
+                var imageDump='';
+                if(imageData.check) { 
+                     imageDump = '<img src="'+imageData.src+'" style="display:none"/>';
+                } 
     			$('#temp').html(link);
     			var desc = $('#temp').text();	
-                self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="descFull">'+desc+'</div>'+src+'</div>' );
+                self.tweetQueue.push( '<div class=""><h3>'+title+'</h3><div class="descFull">'+desc+'</div>'+imageDump+'</div>' );
                 cc++;
             });
 
