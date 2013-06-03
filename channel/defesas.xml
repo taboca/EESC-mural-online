@@ -6,7 +6,7 @@
 		<title>Teses e Dissertações - Escola de Engenharia de São Carlos da Universidade de São Paulo</title>
 		<description><![CDATA[Guia de Programação dos eventos.]]></description>
 		<link>http://www.eesc.usp.br/portaleesc</link>
-		<lastBuildDate>Wed, 29 May 2013 11:28:03 -0300</lastBuildDate>
+		<lastBuildDate>Mon, 03 Jun 2013 10:42:21 -0300</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
 		<atom:link rel="self" type="application/rss+xml" href="http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=modlatest.rss&amp;format=feed&amp;type=rss&amp;modid=185"/>
 		<image>
@@ -17,10 +17,42 @@
 		</image>
 		<language>pt-br</language>
 		<item>
+			<title>[M] Planejamento cinemático-dinâmico de movimento com desvio local de obstáculos utilizando malhas de estados</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=349&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=06&amp;title=m-planejamento-cinematico-dinamico-de-movimento-com-desvio-local-de-obstaculos-utilizando-malhas-de-estados&amp;uid=f8ed8becf26c721c63b6b9aaa2a78513&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=349&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=06&amp;title=m-planejamento-cinematico-dinamico-de-movimento-com-desvio-local-de-obstaculos-utilizando-malhas-de-estados&amp;uid=f8ed8becf26c721c63b6b9aaa2a78513&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[André Chaves Magalhães; Prof. Dr. Valdir Grassi Júnior; Depto Elétrica;]]></description>
+			<category>Programa - Engenharia Elétrica</category>
+			<pubDate>Thu, 06 Jun 2013 11:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Estudo de parâmetros envolvidos na transferência de oxigênio em meio hídrico aerado por bolhas</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=350&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=07&amp;title=m-estudo-de-parametros-envolvidos-na-transferencia-de-oxigenio-em-meio-hidrico-aerado-por-bolhas&amp;uid=b1e6e30382621eba2af2efd2630676af&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=350&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=07&amp;title=m-estudo-de-parametros-envolvidos-na-transferencia-de-oxigenio-em-meio-hidrico-aerado-por-bolhas&amp;uid=b1e6e30382621eba2af2efd2630676af&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Guilherme Araújo Vuitik; Prof. Dr. Nivaldo Aparecido Corrêa; Depto. Hidráulica;]]></description>
+			<category>Programa - Eng. Hidráulica e Saneamento</category>
+			<pubDate>Fri, 07 Jun 2013 06:00:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[D] Avaliação dos efeitos do agrotóxico Vertimec® 18 CE em ecossistemas de água doce por meio de estudos experimentais em laboratório e in situ</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=351&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=10&amp;title=d-avaliacao-dos-efeitos-do-agrotoxico-vertimec-18-ce-em-ecossistemas-de-agua-doce-por-meio-de-estudos-experimentais-em-laboratorio-e-in-situ&amp;uid=ea72599cfaf5d6d17affd6bd6d8e7537&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=351&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=10&amp;title=d-avaliacao-dos-efeitos-do-agrotoxico-vertimec-18-ce-em-ecossistemas-de-agua-doce-por-meio-de-estudos-experimentais-em-laboratorio-e-in-situ&amp;uid=ea72599cfaf5d6d17affd6bd6d8e7537&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[Raphael Campitelli Ramos; Profª. Drª. Odete Rocha (UFSCar); CRHEA;]]></description>
+			<category>Programa - Ciências da Eng. Ambiental</category>
+			<pubDate>Mon, 10 Jun 2013 05:30:00 -0300</pubDate>
+		</item>
+		<item>
+			<title>[M] Registro de imagens por correlação de fase para geração de imagens coloridas em retinógrafos digitais utilizando câmera CCD monocromática</title>
+			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=360&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=10&amp;title=m-registro-de-imagens-por-correlacao-de-fase-para-geracao-de-imagens-coloridas-em-retinografos-digitais-utilizando-camera-ccd-monocromatica&amp;uid=7be4cd2ddd7a248e46b8f1f35b5ef9e0&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
+			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=360&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=10&amp;title=m-registro-de-imagens-por-correlacao-de-fase-para-geracao-de-imagens-coloridas-em-retinografos-digitais-utilizando-camera-ccd-monocromatica&amp;uid=7be4cd2ddd7a248e46b8f1f35b5ef9e0&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
+			<description><![CDATA[José Augusto Stuchi; Prof. Dr. Marcelo Andrade da Costa Vieira; Depto. Elétrica;]]></description>
+			<category>Programa - Engenharia Elétrica</category>
+			<pubDate>Mon, 10 Jun 2013 13:00:00 -0300</pubDate>
+		</item>
+		<item>
 			<title>Dissertação: Emprego de filtro de fibras flexíveis constituído de sisal e de polipropileno na clarificação de água para abastecimento</title>
 			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=dissertacao-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
 			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=352&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=12&amp;title=dissertacao-emprego-de-filtro-de-fibras-flexiveis-constituido-de-sisal-e-de-polipropileno-na-clarificacao-de-agua-para-abastecimento&amp;uid=6fa1c1fc63e8c6520672500eac68c7e7&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[Alice Kimie Martins Morita; Dependências do SHS; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); ]]></description>
+			<description><![CDATA[Alice Kimie Martins Morita; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); Dependências do SHS;]]></description>
 			<category>Programa - Eng. Hidráulica e Saneamento</category>
 			<pubDate>Wed, 12 Jun 2013 11:00:00 -0300</pubDate>
 		</item>
@@ -28,7 +60,7 @@
 			<title>Tese: Aprendizagem baseada em problemas - desenvolvimento de competências para o ensino em engenharia</title>
 			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=tese-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
 			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=329&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=13&amp;title=tese-aprendizagem-baseada-em-problemas-desenvolvimento-de-competencias-para-o-ensino-em-engenharia&amp;uid=96d7a83c2fafc28ad90f0afe1aa28b9a&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[Adriana Casale; SEP; Prof. Dr. Edson Walmir Cazarini – (SEP/EESC); ]]></description>
+			<description><![CDATA[Adriana Casale; Prof. Dr. Edson Walmir Cazarini – (SEP/EESC); SEP;]]></description>
 			<category>Programa - Engenharia de Produção</category>
 			<pubDate>Thu, 13 Jun 2013 10:30:00 -0300</pubDate>
 		</item>
@@ -36,7 +68,7 @@
 			<title>Dissertação: Tratamento físico-químico de vinhaça por coagulação, floculação e sedimentação e seu aproveitamento no cultivo da microalga Chlorella vulgaris visando a produção de biocombustível</title>
 			<link>http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=dissertacao-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</link>
 			<guid isPermaLink="true">http://www.eesc.usp.br/portaleesc/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=342&amp;Itemid=178&amp;year=2013&amp;month=06&amp;day=18&amp;title=dissertacao-tratamento-fisico-quimico-de-vinhaca-por-coagulacao-floculacao-e-sedimentacao-e-seu-aproveitamento-no-cultivo-da-microalga-chlorella-vulgaris-visando-a-producao-de-biocombustivel&amp;uid=43b2f9686e7f5a4f28d3294c430ffbd4&amp;catids=108|122|123|124|125|127|128|130|129|126</guid>
-			<description><![CDATA[Davi Ambrozio Lóio; Dependências do SHS; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); ]]></description>
+			<description><![CDATA[Davi Ambrozio Lóio; Prof. Dr. Marco Antonio Penalva Reali (SHS/EESC); Dependências do SHS;]]></description>
 			<category>Programa - Eng. Hidráulica e Saneamento</category>
 			<pubDate>Tue, 18 Jun 2013 06:00:00 -0300</pubDate>
 		</item>
